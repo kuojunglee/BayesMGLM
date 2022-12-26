@@ -1,0 +1,6 @@
+useDynLib(BayesMGLM, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+import(MASS)
+export(MLModelSelectionMCMC, MultiLinearModelMCMC)
+export(BayesMultiBinaryProbitHSD)
+
